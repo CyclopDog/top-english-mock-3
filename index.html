@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="./imgs/flags-38754.svg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>TOP ENGLISH</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>TOP ENGLISH</h1>
+    </div>
+    <div class="para english container">
+      <p>
+        Uma das melhores escolas de inglês com um preço acessível e a garantia
+        de inglês fluente em 2 anos!
+      </p>
+    </div>
+    <div class="container">
+      <p>Pratique no Canadá</p>
+    </div>
+    <div class="para container canada">
+      <p>
+        Uma incrível experiência de 6 meses! <br />
+        Intercâmbio sem custos adicionais, pague apenas passagem, hospedagem e
+        alimentação
+      </p>
+    </div>
+    <div class="container">
+        <p>Condição imperdível!</p>
+    </div>
+    <div class="para container price">
+        <p>Apenas <br /> 24x de R$ 600,00</p>
+    </div>
+    <div class="container">
+        <p>Não perca tempo, entre em contato agora mesmo pelo formulário abaixo!</p>
+    </div>
+    <div class="para container form">
+        <form onsubmit="handleSubmit()">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" onchange="handleChange()">
+            <p id="name-error" class="error"></p>
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" onchange="handleChange()">
+            <p id="cpf-error" class="error"></p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" onchange="handleChange()">
+            <p id="email-error" class="error"></p>
+            <label for="phone">Telefone</label>
+            <input type="text" name="phone" id="phone" onchange="handleChange()">
+            <p id="phone-error" class="error"></p>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

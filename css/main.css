@@ -1,0 +1,152 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.canada {
+  background-image: url("../imgs/alberta-2297204_1280.jpg");
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 2em;
+}
+
+.container p {
+  font-size: 2em;
+}
+
+.english {
+  background-image: url("../imgs/flags-38754.svg");
+}
+
+.form {
+  background-image: url("../imgs/maple-801800_1280.jpg");
+}
+
+.para {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 85vh;
+}
+
+.para p, .para form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  font-size: 1.6em;
+}
+
+.para form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.para form label, .para form button {
+  margin-top: 15px;
+}
+
+.para form button, .para form input {
+  border: none;
+}
+
+.para form label {
+  text-align: left;
+}
+
+.para form input {
+  width: 100%;
+  height: 30px;
+  font-size: 24px;
+  border-radius: 10px;
+  padding-left: 10px;
+  opacity: 0.9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.para form input:focus {
+  opacity: 1;
+  border: 2px solid orange;
+}
+
+.para form input.red-border {
+  border: 2px solid red;
+}
+
+.para form button {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  font-size: 1.2em;
+  opacity: .9;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.para form button:hover {
+  opacity: 1;
+}
+
+.para form button.sent {
+  background-color: green;
+  opacity: 1;
+  cursor: not-allowed;
+}
+
+.para form .error {
+  background: none;
+  color: red;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 5px;
+  min-height: 22px;
+}
+
+.price {
+  background-image: url("../imgs/woman-591576_1280.jpg");
+}
+
+@media (max-width: 800px) {
+  .para {
+    padding: 0;
+  }
+  .para form {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
